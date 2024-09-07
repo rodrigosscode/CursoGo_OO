@@ -16,9 +16,6 @@ func PagarBoleto(conta verificarConta, valorDoBoleto float64) {
 }
 
 func main() {
-	numero := "1"
-
-	fmt.Println(reflect.TypeOf(numero))
 
 	titularRodrigo := clientes.Titular{
 		Nome:      "Rodrigo",
