@@ -4,7 +4,6 @@ import (
 	"banco/clientes"
 	"banco/contas"
 	"fmt"
-	"reflect"
 )
 
 type verificarConta interface {
